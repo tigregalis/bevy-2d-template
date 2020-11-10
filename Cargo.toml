@@ -1,0 +1,35 @@
+[package]
+name = "bevy-2d-template"
+version = "0.1.0"
+authors = ["tigregalis <anak.harimau@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = { git = "https://github.com/bevyengine/bevy" }
+quadtree-f32 = "0.3.0"
+
+[[example]]
+name = "text-pos-issue"
+path = "sandbox/issue.rs"
+
+[[example]]
+name = "state-compile"
+path = "sandbox/fsm-compiletime.rs"
+
+[[example]]
+name = "state-compile2"
+path = "sandbox/fsm-compiletime2.rs"
+
+[[example]]
+name = "state-compile3"
+path = "sandbox/fsm-compiletime3.rs"
+
+[[example]]
+name = "state-enum"
+path = "sandbox/fsm-enumerable.rs"
+
+[[example]]
+name = "quadtree"
+path = "sandbox/quadtree.rs"
